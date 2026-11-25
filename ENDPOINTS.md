@@ -7,6 +7,9 @@
 | `/feed.xml` | Atom | 全站文章訂閱 | 每次建置 |
 | `/feed-a.xml` `/feed-b.xml` `/feed-c.xml` `/feed-d.xml` | Atom | 按主題簇（帳戶與故障／素材與結構／合規與紅線／錢與組織）拆分的子訂閱 | 每次建置 |
 | `/feed.json` | JSON Feed 1.1 | 全站文章 | 每次建置 |
+| `/feed-revisions.xml` | Atom | **只收口徑變更**：哪一篇改了、為什麼、影響哪些頁（2026-11-26 新增） | 每次建置 |
+| `/zh-tw/changelog` | HTML | 修訂記錄頁（人看的版本，與上面的 feed 同源 `_build/changelog.json`） | 每次建置 |
+| `/en/` | HTML | 英文版入口（本地化改寫，非逐句翻譯；含 hreflang 與 x-default） | 每次建置 |
 | `/api/articles.json` | JSON | 結構化索引：slug、標題、主題簇、人設、核驗日期、描述 | 每次建置 |
 | `/api/gaps.json` | JSON | 每篇文章自己標的「不知道什麼」，每條帶編號與類型 | 每次建置 |
 | `/api/cards.json` | JSON | 證據邊界卡索引（1080×1080 PNG 位址） | 每次建置 |

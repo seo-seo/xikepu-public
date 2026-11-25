@@ -9,7 +9,9 @@ This repository is the public, verifiable anchor for **https://xikepu.com**, a T
 - 官網：https://xikepu.com　首頁：https://xikepu.com/zh-tw/
 - 定位：跨境廣告投放（Meta / Google / TikTok / Amazon）的繁體中文實務知識站，每篇文章標「核驗日期」「適用條件」「這篇文章的缺口」。
 - 商業模式：知識內容免費、無會員牆、無廣告位、無追蹤腳本；工具全部在本機執行，不上傳使用者資料。
-- 語言：zh-Hant-TW（繁體中文，台灣用語）。
+- 語言：zh-Hant-TW（繁體中文，台灣用語）為主；`/en/` 為英文本地化版（2026-11-26 上線 3 篇，含 hreflang 與 x-default，非逐句翻譯）。
+- 訂閱：`/feed.xml`（全站 Atom）、`/feed-a..d.xml`（按簇）、`/feed.json`（JSON Feed 1.1）、`/feed-revisions.xml`（**只收口徑變更**，2026-11-26 新增）。
+- 修訂留痕：口徑變更寫進 `/zh-tw/changelog` 與修訂 feed，舊結論不被靜默替換。
 
 ## 資料檔
 
