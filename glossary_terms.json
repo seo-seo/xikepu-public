@@ -1,0 +1,233 @@
+{
+ "_meta": {
+  "count": 21,
+  "note": "術語表單一來源：頁面列表與 JSON-LD 都由 build 從此檔生成，改詞只改這裡。"
+ },
+ "terms": [
+  {
+   "section": "一、成本與預算",
+   "name": "CAC（獲客成本）",
+   "tag": "算得出來",
+   "desc": "CAC 上限 = 淨毛利 × 可接受佔比；「可接受佔比」是老闆要拍的，不是算出來的。判斷標準是<b>絕對單位成本有沒有超過上限</b>，不是「廣告費佔比有沒有超」。",
+   "url": "/zh-tw/ad-spend-ratio-of-revenue",
+   "title": "廣告費佔營業額幾成才合理",
+   "checked": "2026-11-23",
+   "tool": {
+    "url": "/zh-tw/tools/ad-spend-calculator",
+    "label": "先算一次 →"
+   }
+  },
+  {
+   "section": "一、成本與預算",
+   "name": "廣告費佔營收比",
+   "tag": null,
+   "desc": "先用毛利結構算出「結構上還剩多少空間」，再對照你實際付的比例；退貨要按「退貨率 × 單筆處理成本」估，不能當零——很多團隊算毛利時不計退貨，一放量才發現毛利是負的。",
+   "url": "/zh-tw/ad-spend-ratio-of-revenue",
+   "title": "廣告費佔營業額幾成才合理",
+   "checked": "2026-11-23",
+   "tool": null
+  },
+  {
+   "section": "一、成本與預算",
+   "name": "三層預算（驗證／擴量／防守）",
+   "tag": null,
+   "desc": "預算不要按平台分，要按任務分：驗證層買資訊、擴量層買量、防守層買不漏。每一層有自己的額度與停損條件，三層比例隨階段變，不是固定值。",
+   "url": "/zh-tw/budget-allocation-framework",
+   "title": "跨境投放的預算到底該按什麼分",
+   "checked": "2026-11-23",
+   "tool": {
+    "url": "/zh-tw/tools/budget-allocation",
+    "label": "試算 →"
+   }
+  },
+  {
+   "section": "一、成本與預算",
+   "name": "停損條件",
+   "tag": null,
+   "desc": "驗證層的錢就是「有停損條件的錢」：期滿沒到預設門檻就停，把預算退回擴量層，而不是給它第二次機會。沒有停損條件的錢，不是驗證，是押注。",
+   "url": "/zh-tw/budget-allocation-framework",
+   "title": "跨境投放的預算到底該按什麼分",
+   "checked": "2026-11-23",
+   "tool": null
+  },
+  {
+   "section": "一、成本與預算",
+   "name": "返點",
+   "tag": null,
+   "desc": "服務費是明面上的成本；返點去向、資金佔用、切換成本這三項不出現在報價單，但加起來通常比服務費本身更貴。比價要比「你為每 US$100 廣告費總共付了多少錢」。",
+   "url": "/zh-tw/agency-pricing-models",
+   "title": "代理報價單上最貴的那一行",
+   "checked": "2026-11-23",
+   "tool": null
+  },
+  {
+   "section": "二、學習與歸因",
+   "name": "學習期",
+   "tag": null,
+   "desc": "不是「等它變好」，是「等它學完」。長度取決於<b>轉換事件的密度</b>，不取決於時間——低頻轉換的帳戶，學習期本來就長。",
+   "url": "/zh-tw/learning-phase",
+   "title": "廣告學習期：什麼時候該等，什麼時候該改",
+   "checked": "2026-11-23",
+   "tool": null
+  },
+  {
+   "section": "二、學習與歸因",
+   "name": "歸因視窗",
+   "tag": null,
+   "desc": "是「定義」問題，不是「優化」問題。它決定哪一筆轉換算在這支廣告頭上——同一個帳戶，換一個視窗，ROAS 就會變一個數字。",
+   "url": "/zh-tw/attribution-window",
+   "title": "歸因視窗怎麼設",
+   "checked": "2026-11-23",
+   "tool": null
+  },
+  {
+   "section": "二、學習與歸因",
+   "name": "轉換事件重複上報",
+   "tag": null,
+   "desc": "可怕的地方不在「數字變多」，在演算法學到了錯的樣本，之後會用更高的出價去買一群看起來很像、其實品質不同的人；而且整個過程不會有任何錯誤提示。多數根因是兩邊沒有共用識別，不是埋點寫錯。",
+   "url": "/zh-tw/duplicate-conversion-events",
+   "title": "轉換事件重複上報",
+   "checked": "2026-11-23",
+   "tool": null
+  },
+  {
+   "section": "二、學習與歸因",
+   "name": "出價策略",
+   "tag": null,
+   "desc": "沒有最好的出價策略，只有「你現在的資料量與風險承受度能不能撐住它」的那一種。換策略是所有操作裡代價最高的一種——每次切換都要重新學習。",
+   "url": "/zh-tw/bidding-strategy-selection",
+   "title": "出價策略怎麼選",
+   "checked": "2026-11-23",
+   "tool": null
+  },
+  {
+   "section": "三、素材、受眾與頁面",
+   "name": "素材賽馬",
+   "tag": "結論強度弱",
+   "desc": "同時跑多組看誰的表現好：時間短、失敗代價小，但結論強度弱——只能說「看起來不錯」。它的重點不是選出贏家，是「把贏家複製出去」。",
+   "url": "/zh-tw/ab-test-vs-horse-racing",
+   "title": "你以為的 A/B 測試，可能不是 A/B 測試",
+   "checked": "2026-11-23",
+   "tool": null
+  },
+  {
+   "section": "三、素材、受眾與頁面",
+   "name": "A/B 測試",
+   "tag": null,
+   "desc": "單變量對照、累積足夠樣本後才比較，結論強度強——可以說「差異顯著」。它與賽馬的目的、做法、能得到的結論都不同，混用最常見的後果是「拿噪音當結論」。",
+   "url": "/zh-tw/ab-test-vs-horse-racing",
+   "title": "你以為的 A/B 測試，可能不是 A/B 測試",
+   "checked": "2026-11-23",
+   "tool": null
+  },
+  {
+   "section": "三、素材、受眾與頁面",
+   "name": "樣本量",
+   "tag": null,
+   "desc": "官方給的是「方法與門檻」，不是樣本量。每組需要多少次點擊、多少曝光、最少幾天，要自己算——算不出來就排期，等於用噪音決定換不換素材。",
+   "url": "/zh-tw/creative-test-schedule",
+   "title": "素材賽馬怎麼排期",
+   "checked": "2026-11-23",
+   "tool": {
+    "url": "/zh-tw/tools/creative-sample-size",
+    "label": "算一輪 →"
+   }
+  },
+  {
+   "section": "三、素材、受眾與頁面",
+   "name": "頻次（Frequency）",
+   "tag": null,
+   "desc": "素材衰退的第二個訊號：同一批人看到太多次。它排在 CTR 下滑之後、CPM 與 CPA 抬升之前——等到 ROAS 掉才動，通常是第四個訊號了。",
+   "url": "/zh-tw/creative-testing-and-refresh",
+   "title": "素材怎麼測與何時換",
+   "checked": "2026-11-23",
+   "tool": null
+  },
+  {
+   "section": "三、素材、受眾與頁面",
+   "name": "CTR（點擊率）",
+   "tag": null,
+   "desc": "點擊量太少時，CTR 的差異可能只是噪音；高 CTR 低 CVR 的素材通常只是「鉤子騙人」，長期會拖低整體。判斷要同時看點擊量、轉換、與成本。",
+   "url": "/zh-tw/creative-testing-and-refresh",
+   "title": "素材怎麼測與何時換",
+   "checked": "2026-11-23",
+   "tool": null
+  },
+  {
+   "section": "三、素材、受眾與頁面",
+   "name": "到達頁",
+   "tag": null,
+   "desc": "轉換差八成不是「設計不夠好看」，而是順序、速度、一致性有問題。改版是最貴的修法——先跑七項檢查，通常一半問題不用改設計就能修好。",
+   "url": "/zh-tw/landing-page-low-conversion-seven-checks",
+   "title": "到達頁轉換率低：先查這七件事",
+   "checked": "2026-11-23",
+   "tool": null
+  },
+  {
+   "section": "三、素材、受眾與頁面",
+   "name": "受眾重疊",
+   "tag": null,
+   "desc": "不是「設定看起來不一樣」就沒有。查重疊要看的不是設定頁，是三件事：平台的重疊報表、同一時段的曝光分配、以及每組的「觸達人數 ÷ 花費」。",
+   "url": "/zh-tw/audience-overlap-check",
+   "title": "受眾重疊怎麼查",
+   "checked": "2026-11-23",
+   "tool": null
+  },
+  {
+   "section": "三、素材、受眾與頁面",
+   "name": "再行銷分層",
+   "tag": null,
+   "desc": "最貴的錯誤不是「沒做」，是「把所有人放進同一組」。昨天剛來的人、三個月前逛過的人、已經買過的人要的東西完全不同；四層，每層一個目的。",
+   "url": "/zh-tw/retargeting-audience-layers",
+   "title": "再行銷名單怎麼分",
+   "checked": "2026-11-23",
+   "tool": null
+  },
+  {
+   "section": "四、帳戶與結構",
+   "name": "預設值（platform default）",
+   "tag": "每季查一次",
+   "desc": "不是「平台建議」，是<strong>你不動它就會生效</strong>的設定。2026 年的變化集中在素材來源：最高成效的圖片抽取從 12-04 起對新廣告預設開啟，帳號層總開關不再兜底——「誰必須主動動作」被反轉了。",
+   "url": "/zh-tw/pmax-image-extraction",
+   "title": "最高成效自動抽你的圖",
+   "checked": "2026-11-23",
+   "tool": {
+    "url": "/zh-tw/tools/defaults-audit",
+    "label": "查一遍 →"
+   }
+  },
+  {
+   "section": "四、帳戶與結構",
+   "name": "AI 素材披露（AIGC disclosure）",
+   "tag": "政策門檻",
+   "desc": "平台要求「顯著由 AI 生成」的素材必須標示。三條路徑三套規則：平台工具生成的自帶標籤、自建素材要在後台勾選（<strong>新建或複製廣告時會重置</strong>）、達人授權走社群規範。漏標的代價是拒審或限流。",
+   "url": "/zh-tw/ai-disclosure-three-paths",
+   "title": "AI 做的素材要不要標",
+   "checked": "2026-11-23",
+   "tool": null
+  },
+  {
+   "section": "四、帳戶與結構",
+   "name": "帳戶受限",
+   "tag": null,
+   "desc": "九成不是「運氣」，是某個可查的訊號被系統抓到了。先按處置成本把 12 項自查完，再談申訴；換號、換主體、換環境只會讓後面的申訴更難。",
+   "url": "/zh-tw/ad-account-restriction-12-checks",
+   "title": "廣告帳戶受限的 12 個自查項",
+   "checked": "2026-11-23",
+   "tool": {
+    "url": "/zh-tw/tools/account-restriction-checker",
+    "label": "自查 →"
+   }
+  },
+  {
+   "section": "四、帳戶與結構",
+   "name": "冷卻期",
+   "tag": null,
+   "desc": "可逆改動（換素材、改標題、調預算）冷卻期可以短；不可逆改動（拆組合併、換出價策略、改轉換事件）必須長。兩個條件取大者：延遲天數 vs 樣本天數。",
+   "url": "/zh-tw/structure-change-cooldown",
+   "title": "結構改完的冷卻期",
+   "checked": "2026-11-23",
+   "tool": null
+  }
+ ]
+}
